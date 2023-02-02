@@ -3,18 +3,24 @@ using UnityEngine;
 
 public class Controller : MonoBehaviour
 {
-    public TMP_Text flasksText;
+public Data data;
 
-    public double flasks;
+public TMP_Text flasksText;
 
-    public void Update() 
-        {
-            flasksText.text = flasks +" Flasks";
-        }
+public void Start()
+{
+    data = new Data();
+}
 
-    public void GenerateFlasks()
+
+public void Update() 
     {
-        flasks += 1;
+        flasksText.text = data.flasks +" Flasks";
+    }
+
+public void GenerateFlasks()
+    {
+        data.flasks += 1;
     }
     
 }
