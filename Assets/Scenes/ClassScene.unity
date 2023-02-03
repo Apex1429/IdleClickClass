@@ -625,7 +625,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flasksText: {fileID: 58186471}
-  flasks: 0
 --- !u!4 &1789274098
 Transform:
   m_ObjectHideFlags: 0

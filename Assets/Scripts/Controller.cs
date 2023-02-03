@@ -7,13 +7,13 @@ public Data data;
 
 public TMP_Text flasksText;
 
-public void Start()
+private void Start()
 {
     data = new Data();
 }
 
 
-public void Update() 
+private void Update() 
     {
         flasksText.text = data.flasks +" Flasks";
     }
